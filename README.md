@@ -18,6 +18,7 @@ git clone <https://github.com/pallavihola9/Inventory-Managment>
 - Endpoint: `/add_product/`
 - Method: `POST`
 - Body: JSON data including product details (product_id, name, description, price, quantity).
+***** after adding product using postman run python manage.py create_inventory on project terminal for adding inventory **********
 
 2. Update Product:
 - Endpoint: `/update_product/<product_id>/`
